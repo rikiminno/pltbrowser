@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pltbrowser"
+version = "0.1.0"
+description = "Browse many Matplotlib figures in one window, organized as a tree"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["matplotlib", "figures", "plots", "browser", "qt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Framework :: Matplotlib",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "matplotlib>=3.8",
+    "PySide6>=6.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
