@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Browse many Matplotlib figures in one window, organized as a tree"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 license = "MIT"
 license-files = ["LICENSE"]
 keywords = ["matplotlib", "figures", "plots", "browser", "qt"]
